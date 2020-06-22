@@ -1,0 +1,5 @@
+https://blog.csdn.net/weixin_40648117/article/details/80535947
+
+两种方案实现注入
+1.通过 @Pointcut("execution(* com.deartag.aop.test.Main.delayTask2(..))")
+2.通过@Pointcut("@annotation(AspectTest.Servicelock)") 
